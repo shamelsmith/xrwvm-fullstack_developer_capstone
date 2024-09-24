@@ -1,6 +1,6 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 8 */
 /*jshint sub:true*/
-/* experimental: [asyncawait] */
+
 const express = require("express");
 const mongoose = require("mongoose");
 const fs = require("fs");
