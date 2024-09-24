@@ -8,16 +8,19 @@ from .models import CarModel,CarMake
 class CarModelInline(admin.TabularInline):
     model = CarModel
 
+
 # CarModelAdmin class
 class CarModelAdmin(admin.ModelAdmin):
     model = CarModel
+
 
 # CarMakeAdmin class with CarModelInline
 class CarMakeAdmin(admin.ModelAdmin):
     model = CarMake
     inlines = [
-        CarModelInline,
+        CarModelInline, 
     ]
+
 
 # Register models here
 admin.site.register(CarModel)
