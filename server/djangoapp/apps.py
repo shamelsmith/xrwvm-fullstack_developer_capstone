@@ -10,5 +10,6 @@ Django Config Class
 
 """
 
+
 class DjangoappConfig(AppConfig):
     name = 'djangoapp'
