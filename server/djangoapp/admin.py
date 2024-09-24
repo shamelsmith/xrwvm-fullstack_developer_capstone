@@ -18,7 +18,7 @@ class CarModelAdmin(admin.ModelAdmin):
 class CarMakeAdmin(admin.ModelAdmin):
     model = CarMake
     inlines = [
-        CarModelInline, 
+        CarModelInline,
     ]
 
 
